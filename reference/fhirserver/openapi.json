@@ -83483,9 +83483,9 @@
     "title": "FhirServer",
     "version": "unspecified"
   },
-  "host": "bwell.fhir.org",
+  "host": "test.fhir.org",
   "schemes": [
-    "https"
+    "http"
   ],
   "basePath": "/r4",
   "tags": [
@@ -83924,5 +83924,6 @@
     {
       "name": "VisionPrescription"
     }
-  ]
+  ],
+  "securityDefinitions": {}
 }
